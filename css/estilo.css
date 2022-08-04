@@ -1,0 +1,15 @@
+:root{
+    /*Aqui podemos crear variables para el css, solo hay que escribirlas asi...*/
+    --primary-color:#003476;
+    /*podemos agregar mas, abreviarlas o modificar, pero este es la idea*/
+    --secundar-color:#b4d2f7;
+    /*abreviado podriamos ponerle algo asi...*/
+    --sc:#b4d2f7;
+    /*tambien podemos agregar mas cosas*/
+    --fzc: 1.6rem;/*font-zise*/
+    --fzm: 1.8rem;
+    --fzg: 2.2rem;
+}
+body{
+    background-color: slategray;
+}
