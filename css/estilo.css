@@ -1,0 +1,37 @@
+:root{
+    /*Colores
+    --cn:#00000;
+    --cm:#AD0BDE;
+    --ca:#0097EB;
+    --cc:#EBCCBB;
+    --cr:#F53147;
+    font-zise
+    --fzc: 1.6rem;
+    --fzm: 1.8rem;
+    --fzg: 2.2rem;*/
+}   
+body{
+    background-color: steelblue;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    
+}
+nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav ul li a{
+    font-size: var(--fzc);
+    
+    border: 0.3rem solid var(--cn);
+}
+#banner{
+    width: 100%;
+    height: 100%;
+    background-color: var(--cm);
+}
