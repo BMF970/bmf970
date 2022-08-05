@@ -23,16 +23,38 @@
 <body>
     <main>
         <header>
-            <nav>
+            <nav class="card-menu">
                 <figure><img src="#" alt="banner de la pagina" id="banner"></figure>
-                <ul>
-                    <li><a href="">portfolio</a></li>
-                    <li><a href="">aboutme</a></li>
-                    <li><a href="">experiencia</a></li>
-                    <li><a href="">home</a></li>
-                    <li><a href="">contacto </a></li>
-                </ul>
-            </nav>
+                <figure><img src="#" id="boton-menu" onclick="displayMenuMobile()"/></figure>
+    
+            <!--    
+                <div class="card-menu-mobile">
+                    <div id="card-menu-mobile-img">
+                        <figure><img src="#" alt="Imagen de la tarjeta del menu movil"></figure>
+                    </div>
+
+                    <div class="links">
+                        <ul>
+                            <li><a href="">portfolio</a></li>
+                            <li><a href="">aboutme</a></li>
+                            <li><a href="">experiencia</a></li>
+                            <li><a href="">home</a></li>
+                            <li><a href="">contacto </a></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            -->
+                <div class="menu-responsive">
+                    <ul>
+                        <li><a href="portfolio">portfolio</a></li>
+                        <li><a href="aboutme">aboutme</a></li>
+                        <li><a href="experiencia">exp</a></li>
+                        <li><a href="home">home</a></li>
+                        <li><a href="contacto">contacto</a></li>
+                    </ul>
+                </div>
+             </nav>
         </header>
 
         <section>
@@ -43,6 +65,7 @@
     <footer>
 
     </footer>
+    <script src="js/script.css"></script>
 </body>
 
 </html>
